@@ -15,5 +15,5 @@ p {
   background-color: transparent;
 }
 body {
-  background-image: url("dog.gif"), url("clouds.png");
+  background-image: url("images/dog.gif"), url("images/clouds.png");
 }
