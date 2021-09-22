@@ -30,7 +30,6 @@ body {
 
 body {
   background-color: skyblue;
-  overflow: hidden;
 }
 
 div#dog {
@@ -77,6 +76,29 @@ div#dog {
   transform-origin: center;
 }
 
+#Ruckus1 {
+  position: relative;
+  left: 475px;
+  font-size: 36px;
+  color: mintcream;
+  font-family: sans-serif;
+}
+
+#day {
+  color: mintcream;
+  position: relative;
+  bottom: 75px;
+}
+ul {
+  white-space: pre-line;
+}
+
+ul,
+li {
+  list-style: ;
+  display: inline-table;
+}
+
 .slide {
   width: 100vw;
   height: 100vh;
@@ -87,7 +109,7 @@ div#dog {
   width: 400vw;
 }
 .one {
-  background-color: ;
+  background-color: mintcream;
 }
 .two {
   background-color: lightgreen;
@@ -110,5 +132,5 @@ div#dog {
   -ms-overflow-style: none;
 }
 ::-webkit-scrollbar {
-  display: none;
+  display: ;
 }
