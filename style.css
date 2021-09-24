@@ -19,7 +19,7 @@ div#sun {
   width: 12em;
   background-repeat: no-repeat;
   position: fixed;
-  top: 30px;
+  top: 70px;
   background-image: url("images/weather.svg");
 }
 
@@ -60,13 +60,34 @@ div#dog {
   }
 }
 
-#nav {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+.topnav {
+  background-color: rgb(27, 153, 132);
+  overflow: hidden;
 }
 
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
 #Welcome {
   position: relative;
   left: 475px;
@@ -89,14 +110,36 @@ div#dog {
   position: relative;
   bottom: 75px;
 }
-ul {
-  white-space: pre-line;
+
+#hometext {
+  color: mintcream;
+  position: relative;
+  left: 23px;
 }
 
-ul,
-li {
-  list-style: ;
-  display: inline-table;
+#Ahome1 {
+  position: relative;
+  left: 230px;
+  bottom: 599px;
+}
+
+#athome {
+  position: 0;
+  left: 105px;
+  bottom: 815px;
+}
+
+#Cutetext {
+  color: mintcream;
+  position: relative;
+  bottom: 720px;
+  left: 265px;
+}
+
+#cute {
+  position: relative;
+  left: 228px;
+  bottom: 720px;
 }
 
 .slide {
