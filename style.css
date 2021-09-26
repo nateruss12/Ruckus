@@ -8,18 +8,12 @@ li {
   display: inline;
 }
 
-p {
-  font-size: 1.5em;
-  color: #8a0d15;
-  background-image: none;
-  background-color: transparent;
-}
 div#sun {
   height: 12em;
   width: 12em;
   background-repeat: no-repeat;
   position: fixed;
-  top: 70px;
+  top: 85px;
   background-image: url("images/weather.svg");
 }
 
@@ -32,6 +26,12 @@ body {
   background-color: skyblue;
 }
 
+#mtn {
+  position: relative;
+  bottom: 249px;
+  opacity: 0.3;
+}
+
 div#dog {
   height: 10em;
   width: 15em;
@@ -41,6 +41,15 @@ div#dog {
   background-size: cover;
   background-repeat: none;
   background-image: url("images/dog.gif");
+}
+
+#demobox {
+  background-color: rgb(62, 139, 62);
+  padding: 10px;
+  size: 230;
+  position: relative;
+  top: 350px;
+  border: 1px solid green;
 }
 
 div#dog {
@@ -70,7 +79,7 @@ div#dog {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 23px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -93,7 +102,7 @@ div#dog {
   left: 475px;
   font-size: 36px;
   color: mintcream;
-  padding-bottom: 50px;
+  padding-bottom: 55px;
   transform-origin: center;
 }
 
@@ -142,27 +151,20 @@ div#dog {
   bottom: 720px;
 }
 
-.slide {
-  width: 100vw;
-  height: 100vh;
+#Naptext {
+  color: mintcream;
+  position: relative;
+  bottom: 680px;
+  left: 265px;
+  font-size: 18px;
 }
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 400vw;
+
+#Nap {
+  position: relative;
+  left: 228px;
+  bottom: 690px;
 }
-.one {
-  background-color: mintcream;
-}
-.two {
-  background-color: lightgreen;
-}
-.three {
-  background-color: lightseagreen;
-}
-.four {
-  background-color: magenta;
-}
+
 .outer-wrapper {
   width: 100vh;
   height: 100vw;
@@ -175,5 +177,5 @@ div#dog {
   -ms-overflow-style: none;
 }
 ::-webkit-scrollbar {
-  display: ;
+  display: scroll;
 }
